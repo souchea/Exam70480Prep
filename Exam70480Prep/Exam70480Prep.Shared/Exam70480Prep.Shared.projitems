@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>1648aa9c-93ae-412b-b23d-8465fb75fb16</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)js\navigator.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\default.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\chapter1\home.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\chapter1\home.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\chapter2\home.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\chapter2\home.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\chapter3\home.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\chapter3\home.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\chapter4\home.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\chapter4\home.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\chapter4\objective1.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\chapter4\objective2.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\chapter4\objective3.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\chapter4\objective4.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\chapter4\objective5.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\chapter4\objective6.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\home\home.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\home\home.html" />
+  </ItemGroup>
+</Project>
